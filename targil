@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int targil4 = 5;// targil no. 4
+       int targil4 = 5;// targil no. 4
         int targil4_2 = 12 + 20;
         float targil4_3 = 7.5f;
 
@@ -96,27 +96,21 @@ while (index <= 10){
 
 }
 
+int index1 = 1;// 16.
+while(index1<50){
+    System.out.println(index1);
+    index1 += 2;
+
+}
+//17.
+        Random r = new Random();
+        int random_number ;
+    do {
+        random_number = r.nextInt(20) + 10;
+        System.out.println(random_number);
+
+    }
+    while (random_number != 15) ;
+
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
