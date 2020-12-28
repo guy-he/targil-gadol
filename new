@@ -181,7 +181,20 @@ while (true){
         break;
     }
 }
-
+//27
+   System.out.println("input hourly salary");
+        System.out.println("number of hours");
+        int amount = s.nextInt();
+        int hours = s.nextInt();
+        if (amount * hours < 1000){
+            System.out.println( (amount * hours) * 0.98 );
+        }
+if (amount * hours >= 1000 && amount * hours <=5000){
+    System.out.println((amount * hours) * 0.90 );
+}
+else if (amount * hours > 5000){
+    System.out.println((amount * hours) * 0.8 );
+}
 
             }
         }
