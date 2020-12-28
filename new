@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
-       int targil4 = 5;// targil no. 4
+// targil no. 4
+       int targil4 = 5;
         int targil4_2 = 12 + 20;
         float targil4_3 = 7.5f;
 
@@ -16,15 +16,16 @@ public class Main {
         int b = 2;
         int sum = a + b;
         int multi = a * b;
+//targil 6.
+        String color = "blue";
 
-        String color = "blue";//targil 6.
-
-        Scanner s = new Scanner(System.in);// tarrgil 7.
+// tarrgil 7.
+        Scanner s = new Scanner(System.in);
         System.out.println("enter name");
         String name = s.next();
         System.out.println(String.format("hello %s, welcome to java!", name));
-
-        int year = 2020;// targil 8
+// targil 8
+        int year = 2020;
         year += 10;
         year -= 30;
         System.out.println(year);
