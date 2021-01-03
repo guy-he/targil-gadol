@@ -1,0 +1,29 @@
+  int[] t14 = {9, 4, 6};
+                int[] tempty = new int[3];
+                for (int index = 0; index < tempty.length; index++)
+                {
+                        {
+                                System.out.println("input");
+                                tempty[index] = s.nextInt();
+                        }
+                        {
+                                if (tempty[index] != t14[index])
+                                {
+                                        System.out.println("wrong");
+
+                                }
+                                if (tempty[index] == t14[index])
+                                {
+                                        System.out.println("granted");
+                                }
+                        }
+
+                }
+
+
+
+
+
+        }
+
+}
