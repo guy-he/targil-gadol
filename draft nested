@@ -1,0 +1,8 @@
+/nested 1.
+                for (int row = 0; row < 5; row++)
+                {
+                        for (int col = 1; col < 11; col++){
+                                System.out.print(col);
+                                System.out.print(" ");
+                        }
+                        System.out.println();
