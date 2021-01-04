@@ -1,0 +1,154 @@
+package com.company;
+
+import java.lang.module.FindException;
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+
+        public static void main(String[] args) {
+                Scanner s = new Scanner(System.in);
+                Random r = new Random();
+
+
+                int[] array_num = {2, 4, 6};
+                System.out.println(array_num[1]);
+                System.out.println(array_num[array_num.length - 1]);
+
+                int[] empty = new int[20];
+
+                String[] arrayj = {"welcome", "to", "java"};
+
+                int[] tar7 = {-1, -2, -3, -4, -5};
+                for (int index = 0; index < tar7.length; index++) {
+                        System.out.println(tar7[index]);
+                }
+
+                int[] tar8 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+                for (int index = 1; index < tar8.length; index += 2) {
+                        System.out.println(tar8[index]);
+                }
+
+                for (int index = tar8.length - 1; index >= 1; index -= 2) {
+                        System.out.println(tar8[index]);
+                }
+                int[] tar10 = new int[3];
+                for (int index = 0; index < tar10.length; index++) {
+                        System.out.println("enter a number");
+                        tar10[index] = s.nextInt();
+
+                }
+//12.
+
+                int[] tar11 = new int[5];
+                for (int index = 0; index < tar11.length; index++) {
+                        tar11[index] = r.nextInt(50) + 1;
+
+                }
+                for (int index = 0; index < tar11.length; index++)
+                {
+                        System.out.println(tar11[index]);
+                }
+
+
+                int count = 0;
+                for (int index = 0; index < tar11.length; index++) {
+                        if (tar11[index] % 2 == 0) {
+                                count++;
+                        }
+                }
+                if (count == tar11.length) {
+                        System.out.println("all even");
+                }
+                else {
+                        System.out.println("not even");
+                }
+                System.out.println();
+                //13.
+                int[] tara = {1, 5, 10};
+                int[] tarb = {1, 5, 10};
+                boolean are_equal = true;
+                // assume both arrays are in equal size
+                for (int index = 0; index < tara.length; index++) {
+                        if (tara[index] != tarb[index]) {
+                                System.out.println("not same");
+                                are_equal = false;
+                                break;
+                        }
+                }
+                // are_equal?
+                if (are_equal == true) {
+                        System.out.println("are same");
+                }
+                int[] t14 = {9, 4, 6};
+                int[] tempty = new int[3];
+                for (int index = 0; index < tempty.length; index++)
+                {
+                        System.out.println("type guss");
+                        tempty[index] = s.nextInt();
+                }
+                if (t14 == tempty){
+                        System.out.println("granted");
+                }
+              else {
+                        System.out.println("wrong");
+                }
+            /*    System.out.println("enter word");
+              String word = s.next();
+              char[] t15 = new char[word];
+*/
+               String[] names = new String[5];
+               int[] grades = new int[5];
+               for (int index = 0; index < names.length; index++) {
+
+                       System.out.println(String.format("enter student #%d", index + 1));
+                       names[index] = s.next();
+                       System.out.println("enter grade");
+                       grades[index] = s.nextInt();
+               }
+               for (int index = 0; index < names.length; index++){
+                       System.out.print(names[index] + " ");
+                       System.out.println(grades[index]);
+               }
+
+
+
+
+
+               }
+
+
+
+
+
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
