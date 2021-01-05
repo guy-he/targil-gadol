@@ -118,6 +118,19 @@ public class Main {
                 String word = s.nextLine();
                 System.out.println(String.format("the length of your word is: %d",word.length() ));
 
+{
+           //16.
+
+                  int sum = 0;
+                String[] charArray = {"vccv", "bbb", "ccc"};
+                for (int index = 0; index < charArray.length; index++)
+                {
+                        sum =  sum + charArray[index].length();
+                }
+                System.out.println(String.format(" this array has %d charecters in it",sum ));
+}
+
+
 
 
                }
