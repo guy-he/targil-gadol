@@ -113,6 +113,11 @@ public class Main {
 
 
 
+                            //15.
+                System.out.println("type a word and ill tell you how many charecters it contains ");
+                String word = s.nextLine();
+                System.out.println(String.format("the length of your word is: %d",word.length() ));
+
 
 
                }
