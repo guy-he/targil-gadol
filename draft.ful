@@ -130,8 +130,15 @@ public class Main {
                 System.out.println(String.format(" this array has %d charecters in it",sum ));
 }
 
+//nested pt.2 targil 2
+              String[] weekDays = {"sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"};
 
-
+              for (int index = 0; index <= 4; index++){
+                  for (int week = 0; week < weekDays.length; week++){
+                      System.out.print(weekDays[week]);
+                      System.out.print(" ");
+                  }
+                  System.out.println();
 
                }
 
