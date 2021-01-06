@@ -140,6 +140,25 @@ public class Main {
                   }
                   System.out.println();
 
+
+
+
+           int[] maxmin = {2, 1, 5, 9, 7};
+           int max = maxmin[0];
+           int min = maxmin[0];
+           for (int i = 0; i < maxmin.length; i++){
+               if (max < maxmin[i])
+                   max = maxmin[i];
+                   if (min > maxmin[i])
+                       min = maxmin[i];
+
+
+           }
+            System.out.println(String.format("lowest is: %d, highest is: %d", min, max));
+
+
+
+
                }
 
 
