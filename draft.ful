@@ -157,7 +157,10 @@ public class Main {
 
 //nested pt.2 
 //1.
-
+                     for (int index = 0; index < 5; index++){
+             for (int index2 = 1; index2 <= 10; index2++)
+                 System.out.print(index2);
+             System.out.println();
 
 
 
