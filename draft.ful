@@ -64,7 +64,8 @@ public class Main {
                         System.out.println("not even");
                 }
                 System.out.println();
-                //13.
+                
+        //13.        
                 int[] tara = {1, 5, 10};
                 int[] tarb = {1, 5, 10};
                 boolean are_equal = true;
@@ -75,7 +76,7 @@ public class Main {
                                 are_equal = false;
                                 break;
                         }
-                }
+ //14.               }
                 // are_equal?
                 if (are_equal == true) {
                         System.out.println("are same");
@@ -97,23 +98,10 @@ public class Main {
               String word = s.next();
               char[] t15 = new char[word];
 */
-               String[] names = new String[5];
-               int[] grades = new int[5];
-               for (int index = 0; index < names.length; index++) {
-
-                       System.out.println(String.format("enter student #%d", index + 1));
-                       names[index] = s.next();
-                       System.out.println("enter grade");
-                       grades[index] = s.nextInt();
-               }
-               for (int index = 0; index < names.length; index++){
-                       System.out.print(names[index] + " ");
-                       System.out.println(grades[index]);
-               }
+           
 
 
-
-                            //15.
+       //15.                     
                 System.out.println("type a word and ill tell you how many charecters it contains ");
                 String word = s.nextLine();
                 System.out.println(String.format("the length of your word is: %d",word.length() ));
@@ -128,7 +116,50 @@ public class Main {
                         sum =  sum + charArray[index].length();
                 }
                 System.out.println(String.format(" this array has %d charecters in it",sum ));
+                
+                
+      //17.
+          String[] names = new String[5];
+               int[] grades = new int[5];
+               for (int index = 0; index < names.length; index++) {
+
+                       System.out.println(String.format("enter student #%d", index + 1));
+                       names[index] = s.next();
+                       System.out.println("enter grade");
+                       grades[index] = s.nextInt();
+               }
+               for (int index = 0; index < names.length; index++){
+                       System.out.print(names[index] + " ");
+                       System.out.println(grades[index]);
+               }
+
+                
+                
+                
+      //18.
+      
+       int[] maxmin = {2, 1, 5, 9, 7};
+           int max = maxmin[0];
+           int min = maxmin[0];
+           for (int i = 0; i < maxmin.length; i++){
+               if (max < maxmin[i])
+                   max = maxmin[i];
+                   if (min > maxmin[i])
+                       min = maxmin[i];
+
+
+           }
+            System.out.println(String.format("lowest is: %d, highest is: %d", min, max));
+      
+      
+      
 }
+
+//nested pt.2 
+//1.
+
+
+
 
 //nested pt.2 targil 2
               String[] weekDays = {"sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"};
@@ -141,21 +172,22 @@ public class Main {
                   System.out.println();
 
 
+             //5.
+                  System.out.print("how long?");
+            int length = s.nextInt();
+            System.out.print("how wide?");
+            int width = s.nextInt();
+          for (int index = 0; index < length; index++){
+              for (int index2 = 0; index2 < width; index2++)//    1 and 2
+                  System.out.print("*");// why prints that and only in end prints next line? why x many times and then next?
+                   System.out.println();// only at end of iteration? continue?? 
 
 
-           int[] maxmin = {2, 1, 5, 9, 7};
-           int max = maxmin[0];
-           int min = maxmin[0];
-           for (int i = 0; i < maxmin.length; i++){
-               if (max < maxmin[i])
-                   max = maxmin[i];
-                   if (min > maxmin[i])
-                       min = maxmin[i];
 
 
-           }
-            System.out.println(String.format("lowest is: %d, highest is: %d", min, max));
 
+
+        
 
 
 
